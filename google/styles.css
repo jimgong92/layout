@@ -1,3 +1,41 @@
-body {
-  /* rules go here */
+#main {
+	position: relative;
+	width: 512px;
+	margin: 0 auto;
+	top: 164px;
+}
+#logo {
+	display: block;
+	margin: 0 auto 23px auto;
+}
+#searchBar {
+	width: 500px;
+	top: -2px;
+	height: 22px;
+	position: relative;
+	border: 1px solid #d4d4d4;
+	padding-left: 8px;
+	font-size: 14px;
+}
+#searchBar:focus {
+	outline: none;
+	border-color: #1170E9;
+}
+.buttons {
+	text-align: center;
+	font: bold 10px Arial,sans-serif;
+}
+.buttons span {
+	display: inline-block;
+	border: 1px solid #DCDCDC;
+	border-radius: 2px;
+	background-color: #f4f4f4;
+	padding: 5px 9px 5px 9px;
+	margin: 13px 6px;
+	color: #444444;
+}
+.buttons span:hover {
+	border: 1px solid #bbbbbb;
+	box-shadow: 0 1px #bbbbbb;
+	cursor: default;
 }
